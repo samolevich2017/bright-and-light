@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright and Light</title>
+    <link rel="stylesheet" href="./style/header_style.css">
+    <link rel="stylesheet" href="./style/main_style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <img src="./public/img/logo.png" alt="logo">
+                        <h1>Bright and Light</h1>
+                    </a>
+                </div>
+                <div class="burger__block">
+                    <div class="select__language">
+                        <select name="language" id="selectLang">
+                            <option value="PL">PL</option>
+                            <option value="EN">EN</option>
+                        </select>
+                    </div>
+                    <div id="burger" class="header__burger">
+                        <span ></span>
+                    </div>
+                    
+                </div>
+                <nav id="burgerMenu" class="header__menu">
+                    <ul class="header__list">
+                        <h2>Menu</h2>
+                        <li class="header-list__item">
+                            <a href="" class="header__link">Home</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="" class="header__link">Catalog</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="" class="header__link">About</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="" class="header__link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="filter__block container">
+            <div class="search-form__block">
+                <form id="searchServiceForm" action="/">
+                    <input type="text" placeholder="Nazwa serwisu">
+                </form>
+            </div>
+            <div class="select-category__block">
+                <form id="selectCategoryForm" action="/">
+                    <div class="form-field__group checked">
+                        <label for="all">All</label>
+                        <input id="all" type="radio" name="category" checked>
+                    </div>
+                    <div class="form-field__group">
+                        <label for="manicure">Manicure</label>
+                        <input id="manicure" type="radio" name="category">
+                    </div>
+                    <div class="form-field__group">
+                        <label for="test2">Test 2 test</label>
+                        <input id="test2" type="radio" name="category">
+                    </div>
+                    <div class="form-field__group">
+                        <label for="test2">Test 2</label>
+                        <input id="test2" type="radio" name="category">
+                    </div>
+                    <div class="form-field__group">
+                        <label for="test2">Test 2</label>
+                        <input id="test2" type="radio" name="category">
+                    </div>
+                </form>
+            </div>
+            <div class="category-title">
+                <h2>All</h2>
+            </div>
+        </div>
+        <div class="services__block container">
+            <div class="services-list__block">
+                <ul class="services__list">
+                    <li class="services-list__item">
+                        <div class="item-info__block">
+                            <h3 class="item-title">Manicure hybrydowy</h3>
+                            <div class="item-price">
+                                <span class="span-price">102,00 zł</span>
+                            </div>
+                            <div class="item-duration">
+                                <span class="span-duration">1g 30min</span>
+                            </div>
+                            <div class="item-btn__block">
+                                <button>O usłudze</button>
+                            </div>
+                        </div>
+                        <div class="item-image__block">
+                            <img src="./public/img/manicure.jpeg" alt="service">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        let burger = document.getElementById('burger');
+        let menu = document.getElementById('burgerMenu');
+
+        burger.addEventListener('click', (e) => {
+            e.currentTarget.classList.toggle('active');
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
