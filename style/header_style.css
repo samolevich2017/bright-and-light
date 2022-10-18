@@ -109,7 +109,7 @@ body{
 
 .header{
     position: relative;
-    height: 50px;
+    height: 65px;
 }
 
 .header .header__inner {
@@ -125,18 +125,19 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    height: 36px;
+    min-height: 42px;
+    height: 42px;
 }
 
 .header .header__inner .logo__link h1{
     color: #fff;
-    font-size: 15px;
+    font-size: 1.2rem;
     font-family: cursive;
 }
 
 .header .header__inner .logo__link img{
     height: 100%;
-    width: 36px;
+    min-width: 42px;
     margin-right: 15px;
     border-radius: 5px;
 }
@@ -152,8 +153,10 @@ body{
     background: transparent;
     color: #fff;
     border: 1px solid #fff;
-    height: 32px;
+    height: 42px;
+    padding: 0 5px;
     margin-right: 10px;
+    font-size: 1rem;
 }
 
 .header .header__inner .select__language select option{
@@ -162,8 +165,8 @@ body{
 
 .header .header__inner .header__burger{
     position: relative;
-    height: 32px;
-    width: 32px;
+    height: 42px;
+    width: 42px;
     border: 1px solid #fff;
     border-radius: 5px;
     display: flex;
@@ -173,7 +176,7 @@ body{
 
 .header .header__inner .header__burger span{
     display: block;
-    width: 20px;
+    width: 22px;
     height: 2px;
     border-radius: 5px;
     background: #fff;
@@ -182,21 +185,21 @@ body{
 .header .header__inner .header__burger span::after{
     content: "";
     position: absolute;
-    width: 20px;
+    width: 22px;
     height: 2px;
     border-radius: 2px;
     background: #fff;
-    top: 10px;
+    top: 11px;
 }
 
 .header .header__inner .header__burger span::before {
     content: "";
     position: absolute;
-    width: 20px;
+    width: 22px;
     height: 2px;
     border-radius: 2px;
     background: #fff;
-    top: 18px;
+    top: 27px;
 }
 
 .header .header__inner .header__burger.active{
