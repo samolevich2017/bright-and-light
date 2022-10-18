@@ -28,7 +28,7 @@ main .container{
 }
 
 .search-form__block input{
-    height: 32px;
+    height: 42px;
     padding: 10px;
     border-radius: 5px;
     width: 100%;
@@ -36,6 +36,7 @@ main .container{
     background: rgb(44, 167, 146, 17%);
     color: #fff;
     transition: 0.2s;
+    font-size: 1.1rem;
 }
 
 .search-form__block input:focus{
@@ -56,7 +57,7 @@ main .container{
 
 .select-category__block form .form-field__group{
     position: relative;
-    height: 32px;
+    height: 36px;
     padding: 0 10px;
     width: auto;
     border: 1px solid #fff;
@@ -99,7 +100,7 @@ main .container{
 }
 
 .filter__block .category-title h2{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #F8F4F4;
     font-weight: bold;
     margin-top: 20px;
@@ -135,18 +136,18 @@ main .container{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    min-height: 122px;
+    min-height: 160px;
     height: 122px;
     width: 100%;
     background: #fff;
-    border-bottom: 2px solid #9E6935;
+    border-bottom: 2px solid #ce84ab;
     padding: 12px 20px;
 }
 
 .services-list__block .services__list .services-list__item .item-image__block{
     position: relative;
-    height: 98px;
-    width: 98px;
+    height: 128px;
+    width: 128px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -166,28 +167,28 @@ main .container{
 
 .services-list__block .services__list .services-list__item .item-info__block .item-title{
     font-family: Tahoma, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #333;
 }
 
 .services-list__block .services__list .services-list__item .item-info__block .item-price .span-price{
     font-family: Montserrat;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #2CA792;
     font-weight: 600;
 }
 
 .services-list__block .services__list .services-list__item .item-info__block .item-duration .span-duration{
     font-family: Montserrat;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: #7C7C7C;
 }
 
 .services-list__block .services__list .services-list__item .item-info__block .item-btn__block{
     position: relative;
-    height: 28px;
-    width: 95px;
+    height: 36px;
+    width: 136px;
 }
 
 .services-list__block .services__list .services-list__item .item-info__block .item-btn__block button{
@@ -200,5 +201,6 @@ main .container{
     background: #FFD6EC;
     border: 1px solid #B45A8A;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
