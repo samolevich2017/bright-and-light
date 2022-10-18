@@ -283,7 +283,7 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 65px;
     border-bottom: 1px solid #fda052;
 }
 
@@ -291,7 +291,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    line-height: 50px;
+    line-height: 65px;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
